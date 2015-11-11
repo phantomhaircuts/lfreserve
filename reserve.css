@@ -1,0 +1,186 @@
+/* CSS declarations go here */
+body {
+ font-family: "helvetica neue";
+ font-style: normal;
+ font-weight: normal;
+ background-color: #000000;
+ background-image: url("images/black_thread_@2X.png");
+ color: #fff;
+ margin:0;
+ padding:0;
+ overflow-x: hidden;
+ font-smoothing: antialiased;
+ osx-font-smoothing: grayscale;
+}
+
+header {
+  margin-bottom: 10px;
+  /*display: block;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: .8;
+  width: 100%;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  display: inline;
+}
+
+.includes {
+  width: 50% !important;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#author-div {
+  margin-top: 50px;
+  background-image: url("images/writer.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 432px;
+}
+
+#authors {
+  padding: 5em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#love {
+  text-align: center;
+  font-size: 80px;
+}
+
+.toggle-chat {
+  background-color: red;
+  width: 50px;
+  height: 30px;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.about {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.twain {
+}
+
+.description {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#twain {
+  margin: 0 auto;
+  width: 180px;
+  height: 210px;
+  background-color: black;
+  border-radius: 100px;
+  background-image: url("images/twain.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hemmingway {
+  margin: 0 auto;
+  width: 180px;
+  height: 210px;
+  background-color: black;
+  border-radius: 100px;
+  background-image: url("images/Hemingway.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.room-pic {
+  display: block;
+  float: left;
+  width: 39%;
+  height: 100%;
+}
+
+.details {
+  width: 27.5%;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: 1px;
+  padding: 2px;
+}
+
+.room-index {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid gray;
+  height: 220px;
+  box-sizing: border-box;
+  flex: auto;
+  background-color: black;
+}
+
+.payment {
+  float: right;
+  box-sizing: border-box;
+}
+
+.price {
+  float: left;
+}
+
+.paypal {
+  /*float: right;*/
+}
+
+.messages {
+  color: black;
+  font-size: 20px;
+  float: right;
+  display: block;
+  position: fixed;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  background-image: url("images/paper.png");
+  display: none;
+}
+
+.message-input {
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.messages li {
+  list-style: none;
+}
+
+.delete {
+  font-weight: bold;
+  cursor: pointer;
+}

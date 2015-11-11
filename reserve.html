@@ -1,0 +1,83 @@
+<head>
+  <title>reserve Love(tt)Fest</title>
+</head>
+<body>
+  <header>
+    {{> loginButtons}}
+    <div class="toggle-chat">Chat</div>
+  </header>
+
+  <div class="messages">
+    <form class="new-message">
+      <input class="message-input" type="text" name="text" placeholder="Type a message" autocomplete="off" />
+    </form>
+  <ul>
+    {{#each messages}}
+    {{> message}}
+    {{/each}}
+  </ul>
+  </div>
+
+  <div class="about">
+    <div id="love">Reserve</div>
+    <div id="author-div"><h3 id="authors">The "Three Authors" are situated about 2 miles north of where the road ends in Corolla, NC down in the Outer Banks. The houses are accessible via 4x4 or shuttle service from Twiddy Rentals just before the road ends (see “Travel" for more specifics). Each of the houses have their own short boardwalk to the beach and a pool between the house and the ocean. All have ample kitchen, bathroom, and communal space. All of the rooms are unique and charming. Each has its own TV and direct access to either a private or shared (with one other room) full bath. The houses are amazing. Please note that rates include all week rent, tax and vacation insurance in addition to beach transportation assistance, all the beer you can drink, 3 live shows, all sorts of fun, and dinners (Monday-Saturday).</h3></div></div>
+    <div class="twain">
+      <h3 class="bold includes">All room rents include accommodations, tax, insurance, beach transportation assistance, all the beer you can drink, 3 live shows, all sorts of fun, and dinners (Monday-Saturday).</h3>
+      <div id="twain"></div>
+      <h1>Twain</h1>
+      <div class="description"><p>The Mark Twain is the primary party house. It's the larger with 18 rooms and will also serve as the central location for nightly festivities and group meals. So it will be the loudest, busiest and most used. It's a huge house, but please be aware, floor 2 and the pool/bar outside are likely to be playing music until late at night. Level 1 has a wet bar (refrigerator/dishwasher) and a pool table. There are no rooms on level 2; however, it is the main common area including a industrial kitchen, a grand piano and a workout room with a treadmill and stationary bike. Level 3 has it's own common area, 4 washer/dryers and a ridiculous view of the ocean.</p></div>
+    </div>
+    <ul>
+      {{#each twain}}
+      {{> room}}
+      {{/each}}
+    </ul>
+    <div class="hemmingway">
+      <div id="hemmingway"></div>
+    </div>
+    <h1>Hemmingway</h1>
+    <div class="description"><p>The Hemingway is more likely to be conducive to families. Afternoon and evening festivities will use the pool deck. The house has the biggest pool of the three, a pool bar and a large deck for sunbathing. Level 1 has its own kitchen, including a dishwasher, sink, microwave and mini fridge as well as a pool and foosball table, an elliptical, and stationary bike. Level 2 has a large common area with full kitchen. Level 3 has a small common area with a ridiculous view of the ocean.</p></div>
+    <ul>
+      {{#each hemmingway}}
+      {{> room}}
+      {{/each}}
+    </ul>
+    <footer>
+
+    </footer>
+  </body>
+
+  <template name="room">
+    <div class="room-index">
+      <img class="room-pic" src={{picUrl}}>
+      <span class="details">
+        <span class="bold">Room:</span> {{room}}<br>
+        <span class="bold">Bed:</span> {{bed}}<br>
+        <span class="bold">Baths:</span> {{baths}}<br>
+        <!-- <span class="bold">Color:</span> {{color}}<br> -->
+        <span class="bold">Floor Space:</span> {{floorSpace}}<br>
+        <span class="bold">Balcony Access:</span> {{balconyAccess}}<br>
+        <!-- <span class="bold">Base Rate:</span> {{baseRate}}<br> -->
+        <!-- <span class="bold">Tax:</span> {{tax}}<br> -->
+        <!-- <span class="bold">Insurance:</span> {{insurance}}<br> -->
+        <span class="bold">Floor:</span> {{floor}}<br>
+      </span>
+      <span class="payment">
+        <h3 class="price">${{totalRate}}</h3>
+        <!-- Paid: {{paid}} -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value= {{value}} >
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </span>
+    </div>
+  </template>
+
+  <template name="message">
+  <li>
+   <span class="delete">X</span>
+   <span class="text"><h4>{{username}}</h4>: {{text}}</span>
+ </li>
+</template>
