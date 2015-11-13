@@ -24,7 +24,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'V24EC3WGHRMSG'
       },
@@ -41,7 +41,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'YMKMDJ5S4V4BE'
       },
@@ -58,7 +58,7 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'JVNWE5NRPBAMC'
       },
@@ -75,7 +75,7 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: '3V9QRWZQS5YSE'
       },
@@ -92,7 +92,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'PXVK5MZCA4RLQ'
       },
@@ -109,7 +109,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'RLRCZFYJ299MA'
       },
@@ -126,7 +126,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'NHMYNSW7R6TYJ'
       },
@@ -143,7 +143,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'SJPRE5MQKJAVC'
       },
@@ -160,7 +160,7 @@ if (Meteor.isClient) {
         baseRate: 400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'LYWVCPSXHPCGE'
       },
@@ -177,7 +177,7 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: '2J8XSU8GB7MG'
       },
@@ -194,7 +194,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'HGS6PLYK9DX68'
       },
@@ -211,7 +211,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: '5VB3WZP84NW3S'
       },
@@ -228,7 +228,7 @@ if (Meteor.isClient) {
         baseRate: 1300,
         tax: 162,
         insurance: 110,
-        totalRate: 2353,
+        totalRate: "$" + 2353,
         paid: false,
         value: 'PJPZDN8B73Q44'
       },
@@ -247,7 +247,7 @@ if (Meteor.isClient) {
         insurance: 136,
         totalRate: 2716,
         paid: false,
-        value: '3FRCKF4ZCL92S'
+        value: "$" + '3FRCKF4ZCL92S'
       },
       {
         room: 15,
@@ -262,7 +262,7 @@ if (Meteor.isClient) {
         baseRate: 1600,
         tax: 200,
         insurance: 136,
-        totalRate: 2716,
+        totalRate: "$" + 2716,
         paid: false,
         value: 'XSLEB3S4EY3LG'
       },
@@ -279,7 +279,7 @@ if (Meteor.isClient) {
         baseRate: 1300,
         tax: 162,
         insurance: 110,
-        totalRate: 2353,
+        totalRate: "$" + 2353,
         paid: false,
         value: 'CQPP96G5QUAGC'
       },
@@ -296,7 +296,7 @@ if (Meteor.isClient) {
         baseRate: 1300,
         tax: 162,
         insurance: 110,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'ZTLV8SAP448HC'
       },
@@ -319,10 +319,10 @@ if (Meteor.isClient) {
 
       }
     ],
-    hemmingway: [
+    hemingway: [
       {
         room: 1,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br6_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br13_800x566.jpg',
         floor: 1,
         bed: 'King',
         baths: 'Private',
@@ -333,7 +333,7 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'H3UKMFDXLQE8A'
       },
@@ -350,13 +350,13 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 110,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         class: '5YYD35FVPXEQ'
       },
       {
         room: 3,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br5_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br2_800x566.jpg',
         floor: 1,
         bed: 'Queen',
         baths: 'With #5',
@@ -367,7 +367,7 @@ if (Meteor.isClient) {
         baseRate: 1000,
         tax: 125,
         insurance: 85,
-        totalRate: 1990,
+        totalRate: "$" + 1990,
         paid: false,
         value: '2PNAHLSZXVU8W'
       },
@@ -384,13 +384,13 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'BVYD9HMREPB7W'
       },
       {
         room: 5,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br11_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br10_800x566.jpg',
         floor: 1,
         bed: 'Bunk',
         baths: 'With #3',
@@ -401,13 +401,13 @@ if (Meteor.isClient) {
         baseRate: 1000,
         tax: 125,
         insurance: 85,
-        totalRate: 1990,
+        totalRate: "$" + 1990,
         paid: false,
         value: 'UK4PA8KLWEFKN'
       },
       {
         room: 6,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br13_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br11_800x566.jpg',
         floor: 1,
         bed: 'King',
         baths: 'Private',
@@ -418,13 +418,13 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'ET9HCGFDSHPAC'
       },
       {
         room: 7,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br10_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br7_800x566.jpg',
         floor: 2,
         bed: 'King',
         baths: 'Private',
@@ -435,13 +435,13 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'FR6LJR4YZ6SHE'
       },
       {
         room: 8,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br4_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br6_800x566.jpg',
         floor: 2,
         bed: 'King',
         baths: 'Private',
@@ -452,13 +452,13 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'LVEW8ZYA49AS6'
       },
       {
         room: 9,
-        picUrl: ' http://www.twiddy.com/rns/unitimages.twd/r11461-br3_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br5_800x566.jpg',
         floor: 2,
         bed: 'Queen',
         baths: 'Private',
@@ -469,13 +469,13 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: 'US9DT5K63H8MC'
       },
       {
         room: 10,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br14_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br4_800x566.jpg',
         floor: 2,
         bed: 'King',
         baths: 'Private/Tub',
@@ -486,13 +486,13 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: 'BZG5HWRHCQGKC'
       },
       {
         room: 11,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br2_800x566.jpg',
+        picUrl: 'https://www.twiddy.com/rns/unitimages.twd/r11461-br14_800x449.jpg',
         floor: 3,
         bed: 'Queen',
         baths: 'Private',
@@ -503,13 +503,13 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: 2232,
+        totalRate: "$" + 2232,
         paid: false,
         value: '6DWMZXPJVVZYN'
       },
       {
         room: 12,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br7_800x566.jpg',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br3_800x566.jpg',
         floor: 3,
         bed: 'King',
         baths: 'Private',
@@ -520,13 +520,13 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: 2474,
+        totalRate: "$" + 2474,
         paid: false,
         value: '54BRDAW34CGUA'
       },
       {
         room: 13,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br1_800x566.jpg',
+        picUrl: 'https://www.twiddy.com/rns/unitimages.twd/r11461-br9_800x566.jpg',
         floor: 1,
         bed: 'King',
         baths: 'Private',
@@ -537,12 +537,12 @@ if (Meteor.isClient) {
         baseRate: 1300,
         tax: 162,
         insurance: 110,
-        totalRate: 2353,
+        totalRate: "$" + 2353,
         paid: false
       },
       {
-        room: 13,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br9-1_800x566.jpg',
+        room: 14,
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11461-br1_800x566.jpg',
         floor: 3,
         bed: 'King',
         baths: 'Private',
@@ -553,7 +553,7 @@ if (Meteor.isClient) {
         baseRate: 1600,
         tax: 200,
         insurance: 136,
-        totalRate: 2716,
+        totalRate: "$" + 2716,
         paid: false,
         value: 'MEC3FJHSPXUV2'
       }

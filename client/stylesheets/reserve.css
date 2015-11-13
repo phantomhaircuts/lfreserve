@@ -25,6 +25,28 @@ header {
   height: 50px;
 }
 
+.back {
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid red;
+	border-bottom: 25px solid transparent;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#rental {
+  padding-top: 0!important;
+}
+
+#login-buttons {
+  top: 15px;
+  left: 60px;
+  display: block;
+  position: fixed;
+}
+
 h1 {
   text-align: center;
 }
@@ -33,7 +55,17 @@ h4 {
   display: inline;
 }
 
+a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.inclusion {
+  display: block;
+}
+
 .includes {
+  display: block;
   width: 50% !important;
   text-align: center;
   margin: 0 auto;
@@ -41,16 +73,16 @@ h4 {
 }
 
 #author-div {
-  margin-top: 50px;
+  margin-top: 3px;
   background-image: url("images/writer.jpg");
   background-position: center;
   background-size: cover;
-  height: 432px;
 }
 
-#authors {
+.authors {
   padding: 5em;
   width: 70%;
+  line-height: 1.4em;
   margin: 0 auto;
 }
 
@@ -86,6 +118,35 @@ h4 {
 }
 
 .twain {
+  margin-top: 10px;
+  width: 100%;
+  /*position: relative;*/
+  display: block;
+}
+
+.house-pic {
+  margin: 0 auto;
+  width: 500px;
+  display: block;
+  border: 5px solid #fff;
+}
+
+#one {
+  float: left;
+  display: inline-block;
+  width: 47%;
+  padding-left: 2%;
+}
+
+#two {
+  float:right;
+  display: inline-block;
+  width: 47%;
+  padding-right: 2%;
+}
+
+.number-par {
+  text-align: left;
 }
 
 .description {
@@ -95,32 +156,41 @@ h4 {
 
 #twain {
   margin: 0 auto;
-  width: 180px;
-  height: 210px;
+  width: 270px;
+  height: 315px;
   background-color: black;
-  border-radius: 100px;
+  border-radius: 150px;
   background-image: url("images/twain.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#hemmingway {
+#hemingway {
   margin: 0 auto;
-  width: 180px;
-  height: 210px;
+  width: 270px;
+  height: 315px;
   background-color: black;
-  border-radius: 100px;
+  border-radius: 150px;
   background-image: url("images/Hemingway.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.houses {
+  box-sizing: content-box;
+  min-height: 31.25em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
 .room-pic {
   display: block;
   float: left;
-  width: 39%;
+  /*width: ;*/
   height: 100%;
 }
 
@@ -131,6 +201,7 @@ h4 {
   display: block;
   letter-spacing: 1px;
   padding: 2px;
+  margin-left: 1em;
 }
 
 .room-index {
@@ -143,13 +214,20 @@ h4 {
   background-color: black;
 }
 
+.room-key {
+  list-style: none;
+  padding: 2px;
+  text-align: center;
+  font-size: 1.07em;
+}
+
 .payment {
   float: right;
   box-sizing: border-box;
 }
 
 .price {
-  float: left;
+ text-align: center;
 }
 
 .paypal {
@@ -158,7 +236,8 @@ h4 {
 
 .messages {
   color: black;
-  font-size: 20px;
+  font-size: 1.3em;
+  font-weight: lighter;
   float: right;
   display: block;
   position: fixed;
@@ -171,7 +250,8 @@ h4 {
 }
 
 .message-input {
-  height: 30px;
+  height: 40px;
+  font-size: 1em;
   width: 100%;
   margin: 0 auto;
 }
@@ -183,4 +263,13 @@ h4 {
 .delete {
   font-weight: bold;
   cursor: pointer;
+}
+
+#waiver {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url("images/paper.png");
+  color: black;
+  padding:3em;
 }
