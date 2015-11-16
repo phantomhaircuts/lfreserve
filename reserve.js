@@ -77,7 +77,7 @@ if (Meteor.isClient) {
         insurance: 119,
         totalRate: "$" + 2474,
         paid: false,
-        value: '3V9QRWZQS5YSE'
+        value: "3V9QRWZQS5YSE"
       },
       {
         room: 5,
@@ -94,7 +94,7 @@ if (Meteor.isClient) {
         insurance: 102,
         totalRate: "$" + 2232,
         paid: false,
-        value: 'PXVK5MZCA4RLQ'
+        value: "PXVK5MZCA4RLQ"
       },
       {
         room: 6,
@@ -111,7 +111,7 @@ if (Meteor.isClient) {
         insurance: 102,
         totalRate: "$" + 2232,
         paid: false,
-        value: 'RLRCZFYJ299MA'
+        value: "RLRCZFYJ299MA"
       },
       {
         room: 7,
@@ -353,7 +353,7 @@ if (Meteor.isClient) {
         insurance: 110,
         totalRate: "$" + 2474,
         paid: false,
-        class: 'SULL2J36EHNWU'
+        value: 'SULL2J36EHNWU',
       },
       {
         room: 3,
@@ -540,7 +540,8 @@ if (Meteor.isClient) {
         tax: 162,
         insurance: 110,
         totalRate: "$" + 2353,
-        paid: false
+        paid: false,
+        value: 'YW7GTF4232K4G',
       },
       {
         room: 14,
