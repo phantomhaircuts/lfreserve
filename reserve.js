@@ -351,9 +351,10 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 110,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
         paid: false,
         value: 'SULL2J36EHNWU',
+        reservedBy: 'The Martins'
       },
       {
         room: 3,
