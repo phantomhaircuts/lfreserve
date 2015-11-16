@@ -115,7 +115,10 @@ a {
 
 .center {
   text-align: center;
+  margin: 0 auto;
 }
+
+
 
 .twain {
   margin-top: 10px;
