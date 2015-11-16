@@ -192,6 +192,7 @@ a {
   float: left;
   /*width: ;*/
   height: 100%;
+  max-width: 308px;
 }
 
 .details {

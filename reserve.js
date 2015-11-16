@@ -179,7 +179,7 @@ if (Meteor.isClient) {
         insurance: 119,
         totalRate: "$" + 2474,
         paid: false,
-        value: '2J8XSU8GB7MG'
+        value: '2J8XSU8GB7MGE'
       },
       {
         room: 11,
@@ -230,7 +230,7 @@ if (Meteor.isClient) {
         insurance: 110,
         totalRate: "$" + 2353,
         paid: false,
-        value: 'PJPZDN8B73Q44'
+        value: 'YW7GTF4232K4G'
       },
       {
         room: 14,
@@ -245,9 +245,9 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 200,
         insurance: 136,
-        totalRate: 2716,
+        totalRate: "$" + 2716,
         paid: false,
-        value: "$" + '3FRCKF4ZCL92S'
+        value: '3FRCKF4ZCL92S'
       },
       {
         room: 15,
@@ -314,6 +314,7 @@ if (Meteor.isClient) {
         tax: 0,
         insurance: 0,
         totalRate: ' Reserved',
+        reservedBy: 'Lindsay & Michael Lovett',
         paid: true,
         value: 'APZNKFS7K7B78'
 
@@ -352,7 +353,7 @@ if (Meteor.isClient) {
         insurance: 110,
         totalRate: "$" + 2474,
         paid: false,
-        class: '5YYD35FVPXEQ'
+        class: 'SULL2J36EHNWU'
       },
       {
         room: 3,
@@ -520,14 +521,15 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
+        reservedBy: "Ann Lovett",
         paid: false,
         value: '54BRDAW34CGUA'
       },
       {
         room: 13,
         picUrl: 'https://www.twiddy.com/rns/unitimages.twd/r11461-br9_800x566.jpg',
-        floor: 1,
+        floor: 3,
         bed: 'King',
         baths: 'Private',
         floorSpace: 'Good',
