@@ -370,9 +370,10 @@ if (Meteor.isClient) {
         baseRate: 1000,
         tax: 125,
         insurance: 85,
-        totalRate: "$" + 1990,
+        totalRate: "Reserved",
         paid: false,
-        value: '2PNAHLSZXVU8W'
+        value: '2PNAHLSZXVU8W',
+        reservedBy: 'The Davis Family'
       },
       {
         room: 4,
@@ -404,9 +405,10 @@ if (Meteor.isClient) {
         baseRate: 1000,
         tax: 125,
         insurance: 85,
-        totalRate: "$" + 1990,
+        totalRate: "Reserved",
         paid: false,
-        value: 'UK4PA8KLWEFKN'
+        value: 'UK4PA8KLWEFKN',
+        reservedBy: 'The Davis Family'
       },
       {
         room: 6,
