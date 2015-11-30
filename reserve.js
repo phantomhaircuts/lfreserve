@@ -526,7 +526,7 @@ if (Meteor.isClient) {
         tax: 175,
         insurance: 119,
         totalRate: "Reserved",
-        reservedBy: "Ann Lovett",
+        reservedBy: "Anne Lovett",
         paid: false,
         value: '54BRDAW34CGUA'
       },
