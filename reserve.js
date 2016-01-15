@@ -492,7 +492,8 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
+        reservedBy: "The Nelson Family",
         paid: false,
         value: 'BZG5HWRHCQGKC'
       },
@@ -561,7 +562,8 @@ if (Meteor.isClient) {
         baseRate: 1600,
         tax: 200,
         insurance: 136,
-        totalRate: "$" + 2716,
+        totalRate: "Reserved",
+        reservedBy: "The Crafts Family",
         paid: false,
         value: 'MEC3FJHSPXUV2'
       }
