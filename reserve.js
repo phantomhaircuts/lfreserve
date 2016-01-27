@@ -245,7 +245,7 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 200,
         insurance: 136,
-        totalRate: "$" + 2716,
+        totalRate: "$" + 2474,
         paid: false,
         value: '3FRCKF4ZCL92S'
       },
@@ -291,7 +291,7 @@ if (Meteor.isClient) {
         baths: 'Private',
         floorSpace: 'Great',
         color: 'Yellow',
-        balconyAccess: 'Yes',
+        balconyAccess: 'No',
         side: 'Island',
         baseRate: 1300,
         tax: 162,
@@ -441,7 +441,8 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
+        reservedBy: 'The Farhat Family',
         paid: false,
         value: 'FR6LJR4YZ6SHE'
       },
@@ -458,7 +459,8 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
+        reservedBy: 'The Farhat Family',
         paid: false,
         value: 'LVEW8ZYA49AS6'
       },
