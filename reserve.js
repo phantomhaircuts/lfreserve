@@ -55,10 +55,11 @@ if (Meteor.isClient) {
         color: 'Purple',
         balconyAccess: 'Yes',
         side: 'Island',
-        baseRate: 1400,
+        baseRate: 'Reserved',
+        reservedBy: 'The Reicharts',
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
         paid: false,
         value: 'JVNWE5NRPBAMC'
       },
@@ -72,10 +73,11 @@ if (Meteor.isClient) {
         color: 'Yellow',
         balconyAccess: 'Yes',
         side: 'Island',
-        baseRate: 1400,
+        baseRate: 'Reserved',
+        reservedBy: 'the Martins',
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        totalRate: "Reserved",
         paid: false,
         value: "3V9QRWZQS5YSE"
       },
@@ -89,10 +91,11 @@ if (Meteor.isClient) {
         color: 'Green',
         balconyAccess: 'Yes',
         side: 'Ocean',
-        baseRate: 1200,
+        baseRate: 'Reserved',
+        reservedBy: 'The Davises',
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: "PXVK5MZCA4RLQ"
       },
@@ -106,10 +109,11 @@ if (Meteor.isClient) {
         color: 'Cream',
         balconyAccess: 'No',
         side: 'Ocean',
-        baseRate: 1200,
+        baseRate: 'Reserved',
+        reservedBy: 'The Davises',
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: "RLRCZFYJ299MA"
       },
@@ -123,10 +127,11 @@ if (Meteor.isClient) {
         color: 'Blue',
         balconyAccess: 'No',
         side: 'Ocean',
-        baseRate: 1200,
+        baseRate: 'Reserved',
+        reservedBy: 'The Farhats',
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: 'NHMYNSW7R6TYJ'
       },
@@ -143,7 +148,8 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        reservedBy: 'The Farhats',
+        totalRate: "Reserved",
         paid: false,
         value: 'SJPRE5MQKJAVC'
       },
@@ -160,7 +166,8 @@ if (Meteor.isClient) {
         baseRate: 400,
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        reservedBy: 'The Nelsons',
+        totalRate: "Reserved",
         paid: false,
         value: 'LYWVCPSXHPCGE'
       },
@@ -177,7 +184,8 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 175,
         insurance: 119,
-        totalRate: "$" + 2474,
+        reservedBy: 'The Williamses',
+        totalRate: "Reserved",
         paid: false,
         value: '2J8XSU8GB7MGE'
       },
@@ -245,7 +253,8 @@ if (Meteor.isClient) {
         baseRate: 1400,
         tax: 200,
         insurance: 136,
-        totalRate: "$" + 2474,
+        reservedBy: 'Anne',
+        totalRate: "Reserved",
         paid: false,
         value: '3FRCKF4ZCL92S'
       },
@@ -262,13 +271,14 @@ if (Meteor.isClient) {
         baseRate: 1600,
         tax: 200,
         insurance: 136,
-        totalRate: "$" + 2716,
+        reservedBy: 'The Crafts',
+        totalRate: "Reserved",
         paid: false,
         value: 'XSLEB3S4EY3LG'
       },
       {
         room: 16,
-        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11459-br16a_800x566.jpg	',
+        picUrl: 'http://www.twiddy.com/rns/unitimages.twd/r11459-br16a_800x566.jpg',
         floor: 3,
         bed: 'Queen',
         baths: 'Private',
@@ -337,7 +347,7 @@ if (Meteor.isClient) {
         totalRate: "Reserved",
         paid: false,
         value: 'H3UKMFDXLQE8A',
-        reservedBy: 'The Reicharts'
+        // reservedBy: 'The Reicharts'
       },
       {
         room: 2,
@@ -355,7 +365,7 @@ if (Meteor.isClient) {
         totalRate: "Reserved",
         paid: false,
         value: 'SULL2J36EHNWU',
-        reservedBy: 'The Martins'
+        // reservedBy: 'The Martins'
       },
       {
         room: 3,
@@ -373,7 +383,7 @@ if (Meteor.isClient) {
         totalRate: "Reserved",
         paid: false,
         value: '2PNAHLSZXVU8W',
-        reservedBy: 'The Davis Family'
+        // reservedBy: 'The Davis Family'
       },
       {
         room: 4,
@@ -391,7 +401,7 @@ if (Meteor.isClient) {
         totalRate: "Reserved",
         paid: false,
         value: 'BVYD9HMREPB7W',
-        reservedBy: 'The Williams Family'
+        // reservedBy: 'The Williams Family'
       },
       {
         room: 5,
@@ -409,7 +419,7 @@ if (Meteor.isClient) {
         totalRate: "Reserved",
         paid: false,
         value: 'UK4PA8KLWEFKN',
-        reservedBy: 'The Davis Family'
+        // reservedBy: 'The Davis Family'
       },
       {
         room: 6,
@@ -424,7 +434,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: 'ET9HCGFDSHPAC'
       },
@@ -442,7 +452,7 @@ if (Meteor.isClient) {
         tax: 150,
         insurance: 102,
         totalRate: "Reserved",
-        reservedBy: 'The Farhat Family',
+        // reservedBy: 'The Farhat Family',
         paid: false,
         value: 'FR6LJR4YZ6SHE'
       },
@@ -460,7 +470,7 @@ if (Meteor.isClient) {
         tax: 175,
         insurance: 119,
         totalRate: "Reserved",
-        reservedBy: 'The Farhat Family',
+        // reservedBy: 'The Farhat Family',
         paid: false,
         value: 'LVEW8ZYA49AS6'
       },
@@ -477,7 +487,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: 'US9DT5K63H8MC'
       },
@@ -495,7 +505,7 @@ if (Meteor.isClient) {
         tax: 175,
         insurance: 119,
         totalRate: "Reserved",
-        reservedBy: "The Nelson Family",
+        // reservedBy: "The Nelson Family",
         paid: false,
         value: 'BZG5HWRHCQGKC'
       },
@@ -512,7 +522,7 @@ if (Meteor.isClient) {
         baseRate: 1200,
         tax: 150,
         insurance: 102,
-        totalRate: "$" + 2232,
+        totalRate: "Reserved",
         paid: false,
         value: '6DWMZXPJVVZYN'
       },
@@ -530,7 +540,7 @@ if (Meteor.isClient) {
         tax: 175,
         insurance: 119,
         totalRate: "Reserved",
-        reservedBy: "Anne Lovett",
+        // reservedBy: "Anne Lovett",
         paid: false,
         value: '54BRDAW34CGUA'
       },
@@ -547,7 +557,7 @@ if (Meteor.isClient) {
         baseRate: 1300,
         tax: 162,
         insurance: 110,
-        totalRate: "$" + 2353,
+        totalRate: "Reserved",
         paid: false,
         value: 'YW7GTF4232K4G',
       },
@@ -565,7 +575,7 @@ if (Meteor.isClient) {
         tax: 200,
         insurance: 136,
         totalRate: "Reserved",
-        reservedBy: "The Crafts Family",
+        // reservedBy: "The Crafts Family",
         paid: false,
         value: 'MEC3FJHSPXUV2'
       }
